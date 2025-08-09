@@ -46,8 +46,8 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
     },
     {
       icon: Zap,
-      title: 'AR泉水探索',
-      description: '增强现实技术体验名泉，科技与文化的完美融合',
+      title: '济南文化知识展示',
+      description: '丰富的文化知识库展示，深度了解济南历史文化内涵',
       color: 'bg-indigo-600',
       action: () => {}
     }
