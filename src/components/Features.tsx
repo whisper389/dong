@@ -1,13 +1,14 @@
 import React from 'react';
-import { MessageCircle, Route, BookOpen, Search, Users, Zap } from 'lucide-react';
+import { MessageCircle, Route, BookOpen, Search, Users, Droplets, Building2, Shield } from 'lucide-react';
 
 interface FeaturesProps {
   onChatClick: () => void;
   onFolkloreClick: () => void;
   onHistoryClick: () => void;
+  onCulturalKnowledgeClick: (section: string) => void;
 }
 
-const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHistoryClick }) => {
+const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHistoryClick, onCulturalKnowledgeClick }) => {
   const features = [
     {
       icon: MessageCircle,
@@ -45,11 +46,11 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
       action: onFolkloreClick
     },
     {
-      icon: Zap,
-      title: '济南文化知识展示',
-      description: '丰富的文化知识库展示，深度了解济南历史文化内涵',
+      icon: Building2,
+      title: '济南文化知识',
+      description: '深度了解泉水文化、古城老街、齐长城等济南文化精髓',
       color: 'bg-indigo-600',
-      action: () => {}
+      action: () => onCulturalKnowledgeClick('overview')
     }
   ];
 

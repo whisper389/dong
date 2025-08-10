@@ -9,11 +9,13 @@ import Footer from './components/Footer';
 import ChatInterface from './components/ChatInterface';
 import FolkloreGuide from './components/FolkloreGuide';
 import HistoryStories from './components/HistoryStories';
+import CulturalKnowledge from './components/CulturalKnowledge';
 
 function App() {
   const [showChatInterface, setShowChatInterface] = useState(false);
   const [showFolkloreGuide, setShowFolkloreGuide] = useState(false);
   const [showHistoryStories, setShowHistoryStories] = useState(false);
+  const [showCulturalKnowledge, setShowCulturalKnowledge] = useState(false);
 
   if (showChatInterface) {
     return <ChatInterface onBack={() => setShowChatInterface(false)} />;
@@ -27,6 +29,10 @@ function App() {
     return <HistoryStories onBack={() => setShowHistoryStories(false)} />;
   }
 
+  if (showCulturalKnowledge) {
+    return <CulturalKnowledge onBack={() => setShowCulturalKnowledge(false)} />;
+  }
+
   return (
     <div className="min-h-screen">
       <Header onChatClick={() => setShowChatInterface(true)} />
@@ -35,6 +41,7 @@ function App() {
         onChatClick={() => setShowChatInterface(true)}
         onFolkloreClick={() => setShowFolkloreGuide(true)}
         onHistoryClick={() => setShowHistoryStories(true)}
+        onCulturalKnowledgeClick={() => setShowCulturalKnowledge(true)}
       />
       <AIDemo />
       <Highlights />
