@@ -61,11 +61,15 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6 relative inline-block">
+            <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
+              AI驱动
+            </span>
             六大核心功能
             <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-yellow-600 rounded-full"></div>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mt-8">
-            AI技术赋能传统文化，打造全方位济南文化体验平台
+            <span className="font-semibold text-blue-700">AI技术</span>
+            赋能传统文化，打造全方位济南文化体验平台
           </p>
         </div>
 

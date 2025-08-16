@@ -33,6 +33,7 @@ const Header: React.FC<HeaderProps> = ({ onChatClick }) => {
         <div className="flex items-center gap-4">
           <h1 className="text-3xl font-bold text-blue-800 tracking-wide">
             泉韵<span className="text-yellow-600">志启</span>
+            <span className="text-xs bg-gradient-to-r from-blue-600 to-purple-600 text-white px-2 py-1 rounded-full ml-2 font-normal">AI</span>
           </h1>
         </div>
         
