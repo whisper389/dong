@@ -11,6 +11,7 @@ import FolkloreGuide from './components/FolkloreGuide';
 import HistoryStories from './components/HistoryStories';
 import CulturalKnowledge from './components/CulturalKnowledge';
 import CulturalRoutes from './components/CulturalRoutes';
+import LocalChroniclesSearch from './components/LocalChroniclesSearch';
 
 function App() {
   const [showChatInterface, setShowChatInterface] = useState(false);
@@ -18,6 +19,7 @@ function App() {
   const [showHistoryStories, setShowHistoryStories] = useState(false);
   const [showCulturalKnowledge, setShowCulturalKnowledge] = useState(false);
   const [showCulturalRoutes, setShowCulturalRoutes] = useState(false);
+  const [showLocalChroniclesSearch, setShowLocalChroniclesSearch] = useState(false);
 
   if (showChatInterface) {
     return <ChatInterface onBack={() => setShowChatInterface(false)} />;
@@ -39,6 +41,10 @@ function App() {
     return <CulturalRoutes onBack={() => setShowCulturalRoutes(false)} />;
   }
 
+  if (showLocalChroniclesSearch) {
+    return <LocalChroniclesSearch onBack={() => setShowLocalChroniclesSearch(false)} />;
+  }
+
   return (
     <div className="min-h-screen">
       <Header onChatClick={() => setShowChatInterface(true)} />
@@ -49,6 +55,7 @@ function App() {
         onHistoryClick={() => setShowHistoryStories(true)}
         onCulturalKnowledgeClick={() => setShowCulturalKnowledge(true)}
         onRoutesClick={() => setShowCulturalRoutes(true)}
+        onLocalChroniclesSearchClick={() => setShowLocalChroniclesSearch(true)}
       />
       <AIDemo />
       <Highlights />

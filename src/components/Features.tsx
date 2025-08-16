@@ -7,9 +7,10 @@ interface FeaturesProps {
   onHistoryClick: () => void;
   onCulturalKnowledgeClick: (section: string) => void;
   onRoutesClick: () => void;
+  onLocalChroniclesSearchClick: () => void;
 }
 
-const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHistoryClick, onCulturalKnowledgeClick, onRoutesClick }) => {
+const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHistoryClick, onCulturalKnowledgeClick, onRoutesClick, onLocalChroniclesSearchClick }) => {
   const features = [
     {
       icon: MessageCircle,
@@ -37,7 +38,7 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
       title: '地方志检索解读',
       description: '古籍文献智能检索，AI解读历史文献精髓',
       color: 'bg-amber-600',
-      action: () => {}
+      action: onLocalChroniclesSearchClick
     },
     {
       icon: Users,
