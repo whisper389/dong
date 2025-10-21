@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Route, BookOpen, Search, Users, Droplets, Building2, Shield } from 'lucide-react';
+import { MessageCircle, Route, BookOpen, Search, Users, Droplets, Building2, Shield, MapPin } from 'lucide-react';
 
 interface FeaturesProps {
   onChatClick: () => void;
@@ -7,10 +7,11 @@ interface FeaturesProps {
   onHistoryClick: () => void;
   onCulturalKnowledgeClick: (section: string) => void;
   onRoutesClick: () => void;
+  onDongpingRoutesClick: () => void;
   onLocalChroniclesSearchClick: () => void;
 }
 
-const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHistoryClick, onCulturalKnowledgeClick, onRoutesClick, onLocalChroniclesSearchClick }) => {
+const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHistoryClick, onCulturalKnowledgeClick, onRoutesClick, onDongpingRoutesClick, onLocalChroniclesSearchClick }) => {
   const features = [
     {
       icon: MessageCircle,
@@ -21,10 +22,17 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
     },
     {
       icon: Route,
-      title: '文化旅游路线',
+      title: '济南文化旅游路线',
       description: '个性化文化探索旅程规划，深度体验济南文化魅力',
       color: 'bg-green-600',
       action: onRoutesClick
+    },
+    {
+      icon: MapPin,
+      title: '东平文化旅游路线',
+      description: '探访八百里水泊遗韵，重温水浒英雄传奇',
+      color: 'bg-teal-600',
+      action: onDongpingRoutesClick
     },
     {
       icon: BookOpen,
@@ -64,7 +72,7 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
               AI驱动
             </span>
-            六大核心功能
+            七大核心功能
             <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-yellow-600 rounded-full"></div>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mt-8">
