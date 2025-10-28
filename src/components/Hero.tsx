@@ -80,7 +80,7 @@ const Hero = () => {
           <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
             AI赋能
           </span>
-          济南文化，开启泉城新体验
+          红色文化，开启东平新体验
         </h2>
         <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-4xl mx-auto leading-relaxed">
           探索千年泉城历史，体验智能文化之旅。
