@@ -83,9 +83,9 @@ const Hero = () => {
           红色文化，开启东平新体验
         </h2>
         <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-4xl mx-auto leading-relaxed">
-          探索千年泉城历史，体验智能文化之旅。
+          探索百年东平历史，体验智能文化之旅。
           <span className="font-semibold text-blue-700">AI向导</span>
-          带您领略济南独特的泉水文化、历史故事与民俗风情
+          带您领略东平独特的红湖文化、历史故事与民俗风情
         </p>
         
         {/* AI Features Highlight */}
