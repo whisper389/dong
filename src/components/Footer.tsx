@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="absolute -bottom-2 left-0 w-10 h-0.5 bg-yellow-600"></div>
             </h3>
             <p className="text-slate-300 mb-6 leading-relaxed">
-              用AI技术传承济南文化，打造智能化文化体验平台，让泉城魅力焕发新生。
+              用AI技术传承东平文化，打造智能化文化体验平台，让泉城魅力焕发新生。
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 bg-slate-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
@@ -61,7 +61,7 @@ const Footer = () => {
           {/* Cultural Features */}
           <div>
             <h3 className="text-xl font-bold mb-6 relative inline-block">
-              济南文化
+              东平文化
               <div className="absolute -bottom-2 left-0 w-10 h-0.5 bg-yellow-600"></div>
             </h3>
             <ul className="space-y-3">
@@ -98,7 +98,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-slate-300">
                 <MapPin className="w-5 h-5 text-yellow-400" />
-                济南市历下区文化东路
+                东平县东平镇文化路
               </li>
               <li>
                 <a href="#" className="text-slate-300 hover:text-yellow-400 transition-colors duration-300">
@@ -117,7 +117,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-slate-700 pt-8 text-center">
           <p className="text-slate-400">
-            &copy; 2024 泉韵志启 - AI赋能济南特色文化平台 | 鲁ICP备XXXXXX号
+            &copy; 2024 泉韵志启 - AI赋能东平特色文化平台 | 鲁ICP备XXXXXX号
           </p>
         </div>
       </div>

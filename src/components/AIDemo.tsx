@@ -3,7 +3,7 @@ import { Brain, MessageCircle, Cpu, Sparkles, Zap } from 'lucide-react';
 
 const AIDemo = () => {
   const [typingText, setTypingText] = useState('');
-  const fullText = '您好！我是您的泉城文化向导。您可以问我关于济南的任何文化问题，例如："趵突泉为什么被称为天下第一泉？" 或 "请介绍一下济南的齐长城遗迹"。';
+  const fullText = '您好！我是您的东平文化向导。您可以问我关于东平的任何文化问题，例如："东平湖为什么被称为八百里水泊？" 或 "请介绍一下东平的水浒文化遗迹"。';
 
   useEffect(() => {
     let index = 0;
@@ -31,7 +31,7 @@ const AIDemo = () => {
             <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-yellow-600 rounded-full"></div>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mt-8">
-            与懂济南的
+            与懂东平的
             <span className="font-semibold text-blue-700">AI向导</span>
             对话，获取权威、生动的文化解读
           </p>
@@ -41,17 +41,17 @@ const AIDemo = () => {
           <div className="flex flex-col lg:flex-row">
             <div className="flex-1 p-12">
               <h3 className="text-3xl font-bold text-slate-800 mb-6">
-                与泉城
+                与东平
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">AI向导</span>
                 对话
               </h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 我们的
                 <span className="font-semibold text-blue-700">AI文化向导</span>
-                经过济南地方志、历史文献和专业研究的深度训练，能够以自然对话方式解答您的各类文化问题。
+                经过东平地方志、历史文献和专业研究的深度训练，能够以自然对话方式解答您的各类文化问题。
               </p>
               <p className="text-slate-600 mb-8 leading-relaxed">
-                无论是趵突泉的历史变迁、曲水亭街的典故传说，还是济南特色美食的由来，
+                无论是东平湖的历史变迁、水浒文化的典故传说，还是东平特色美食的由来，
                 <span className="font-semibold text-blue-700">AI向导</span>
                 都能在
                 <span className="font-bold text-green-600">15秒内</span>
@@ -86,7 +86,7 @@ const AIDemo = () => {
                     <Brain className="w-5 h-5 text-white" />
                   </div>
                   <span className="font-semibold text-slate-800">
-                    泉城
+                    东平
                     <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">AI向导</span>
                   </span>
                 </div>

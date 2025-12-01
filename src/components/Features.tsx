@@ -16,14 +16,14 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
     {
       icon: MessageCircle,
       title: '文化智能问答',
-      description: 'AI向导3秒响应，15秒内提供权威解答，专注济南文化内容',
+      description: 'AI向导3秒响应，15秒内提供权威解答，专注东平文化内容',
       color: 'bg-blue-600',
       action: onChatClick
     },
     {
       icon: Route,
-      title: '济南文化旅游路线',
-      description: '个性化文化探索旅程规划，深度体验济南文化魅力',
+      title: '东平文化旅游路线',
+      description: '个性化文化探索旅程规划，深度体验东平文化魅力',
       color: 'bg-green-600',
       action: onRoutesClick
     },
@@ -51,14 +51,14 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
     {
       icon: Users,
       title: '民俗体验指南',
-      description: '传统民俗活动参与指南，深度体验济南民俗文化',
+      description: '传统民俗活动参与指南，深度体验东平民俗文化',
       color: 'bg-red-600',
       action: onFolkloreClick
     },
     {
       icon: Building2,
-      title: '济南文化知识',
-      description: '深度了解泉水文化、古城老街、齐长城等济南文化精髓',
+      title: '东平文化知识',
+      description: '深度了解泉水文化、古城老街、齐长城等东平文化精髓',
       color: 'bg-indigo-600',
       action: () => onCulturalKnowledgeClick('overview')
     }
@@ -77,7 +77,7 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mt-8">
             <span className="font-semibold text-blue-700">AI技术</span>
-            赋能传统文化，打造全方位济南文化体验平台
+            赋能传统文化，打造全方位东平文化体验平台
           </p>
         </div>
 

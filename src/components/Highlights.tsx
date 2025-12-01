@@ -6,13 +6,13 @@ const Highlights = () => {
     {
       icon: Droplets,
       title: '泉水文化',
-      description: '"家家泉水，户户垂杨"的独特景观，72名泉各具特色，构成济南的城市灵魂。',
+      description: '"家家泉水，户户垂杨"的独特景观，72名泉各具特色，构成东平的城市灵魂。',
       color: 'bg-blue-600'
     },
     {
       icon: Building,
       title: '古城风貌',
-      description: '保存完好的古城墙、老街巷，见证济南千年历史变迁与城市发展脉络。',
+      description: '保存完好的古城墙、老街巷，见证东平千年历史变迁与城市发展脉络。',
       color: 'bg-amber-600'
     },
     {
@@ -24,7 +24,7 @@ const Highlights = () => {
     {
       icon: UtensilsCrossed,
       title: '鲁菜美食',
-      description: '糖醋黄河鲤鱼、九转大肠等经典鲁菜，展现济南独特的美食文化。',
+      description: '糖醋黄河鲤鱼、九转大肠等经典鲁菜，展现东平独特的美食文化。',
       color: 'bg-red-600'
     }
   ];
@@ -34,7 +34,7 @@ const Highlights = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6 relative inline-block">
-            济南文化特色
+            东平文化特色
             <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-yellow-600 rounded-full"></div>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mt-8">
