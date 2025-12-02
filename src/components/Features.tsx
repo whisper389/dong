@@ -21,46 +21,18 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
       action: onChatClick
     },
     {
-      icon: Route,
-      title: '东平文化旅游路线',
-      description: '个性化文化探索旅程规划，深度体验东平文化魅力',
-      color: 'bg-green-600',
-      action: onRoutesClick
-    },
-    {
       icon: MapPin,
-      title: '东平文化旅游路线',
+      title: '游线智导东平',
       description: '探访八百里水泊遗韵，重温水浒英雄传奇',
       color: 'bg-teal-600',
       action: onDongpingRoutesClick
     },
     {
-      icon: BookOpen,
-      title: '历史故事讲述',
-      description: '沉浸式互动历史体验，聆听千年泉城的动人故事',
-      color: 'bg-purple-600',
-      action: onHistoryClick
-    },
-    {
       icon: Search,
-      title: '地方志检索解读',
+      title: '东平典籍智存',
       description: '古籍文献智能检索，AI解读历史文献精髓',
       color: 'bg-amber-600',
       action: onLocalChroniclesSearchClick
-    },
-    {
-      icon: Users,
-      title: '民俗体验指南',
-      description: '传统民俗活动参与指南，深度体验东平民俗文化',
-      color: 'bg-red-600',
-      action: onFolkloreClick
-    },
-    {
-      icon: Building2,
-      title: '东平文化知识',
-      description: '深度了解泉水文化、古城老街、齐长城等东平文化精髓',
-      color: 'bg-indigo-600',
-      action: () => onCulturalKnowledgeClick('overview')
     }
   ];
 
@@ -72,7 +44,7 @@ const Features: React.FC<FeaturesProps> = ({ onChatClick, onFolkloreClick, onHis
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
               AI驱动
             </span>
-            七大核心功能
+            三大核心功能
             <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-yellow-600 rounded-full"></div>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mt-8">
